@@ -1,0 +1,2 @@
+tcl_std_msgs/TimingHeader timing_header
+autoware_auto_planning_msgs/PathWithLaneId data

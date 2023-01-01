@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>autoware_tcl_msgs</name>
+  <version>1.0.0</version>
+  <description>Autoware message with Timing Coordination Library.</description>
+
+  <author email="sethut1224@gmail.com">Taeho Han</author>
+  <maintainer email="sethut1224@gmail.com">Taeho</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tcl_std_msgs</depend>
+  <depend>tier4_perception_msgs</depend>
+  <depend>autoware_auto_perception_msgs</depend>
+  <depend>autoware_auto_planning_msgs</depend>
+  
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <test_depend>ament_lint_common</test_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
